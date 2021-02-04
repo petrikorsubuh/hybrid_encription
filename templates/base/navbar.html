@@ -1,0 +1,22 @@
+{% load static %}
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid" id="logo_nav">
+      <a class="navbar-brand" href="#" >Hybrid Encription</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="text-align: center;
+      margin-left: 450px;">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="{% url 'list_inbox' %}" >Inbox</a>
+          </li>
+      </div>
+      <div class="d-flex">
+          <a href="{% url 'logout' %}" class="btn btn-danger" id='logout_button'>logout</a>
+      </div>
+    </div>
+  </nav>

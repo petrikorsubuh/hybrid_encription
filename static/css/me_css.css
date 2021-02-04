@@ -1,0 +1,80 @@
+#login_card {
+    height: 456px;
+    width: 150px;
+    box-shadow: 2px 2px 1px grey;
+    border-radius: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+#form_login{
+    padding-top: 35px;
+}
+#login_card > h1 {
+    font-size: 45px;
+    font-weight: bolder;
+}
+#login_button{
+    padding-top: 58px;
+    margin-left: 51%;
+}
+
+
+#register_card {
+    height: 691px;
+    width: 150px;
+    box-shadow: 2px 2px 1px grey;
+    border-radius: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+#register_button{
+    padding-top: 29px;
+    margin-left: 58%;
+}
+#register_card > h1 {
+    font-size: 45px;
+    font-weight: bolder;
+}
+#logout_button {
+    box-shadow: 2px 3px 4px grey;
+    border-radius: 19px;
+    width: 93px;
+}
+
+#logo_nav {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    
+}
+#aes_card {
+    height: 623px;
+    width: 508px;
+    box-shadow: 2px 8px 14px 8px grey;
+    border-radius: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.form-control {
+    width: 96%;
+    margin-left: 5px;
+}
+label {
+    margin-left: 5px;
+}
+#aes_card > h1 {
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    text-align: center; 
+    padding-top: 10px;
+    
+}
+
+#encript_button > button{
+    height: 57px;
+    margin-left: 34%;
+    width: 327px;
+    font-size: 24px;
+    text-align: center;
+    box-shadow: 2px 8px 6px -1px grey
+}

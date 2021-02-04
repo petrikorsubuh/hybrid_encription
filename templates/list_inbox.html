@@ -1,0 +1,29 @@
+{% extends "base/base.html" %}
+{% block content %}
+{% include "base/navbar.html" %}
+<div class="countainer">
+    <div class="raw">
+        <div style="padding-top: 67px;">
+            <table class="table">
+                <thead class="table-dark">
+                  <tr>
+                      <th>No</th>
+                      <th>Name</th>
+                      <th>Email</th>
+                      <th></th>
+                      <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div>
+        <a href="{% url 'send_message' %}" class="btn btn-primary">Send Message</a>
+        <a href="{% url 'ntru_decript' %}" class="btn btn-primary">Detail</a>
+    </div>
+</div>
+  
+{% endblock content %}

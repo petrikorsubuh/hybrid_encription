@@ -1,0 +1,60 @@
+{% extends "base/base.html" %}
+{% block content %}
+<div class="container" style="padding-top: 45px;">
+    <h1 style="text-align: center;">Send Message</h1>
+    <div>
+        <a href="{% url 'list_inbox' %}" class="btn btn-warning" style="color: aliceblue; box-shadow: 2px 8px 6px -1px grey "> Back </a>
+    </div>
+    <div class="row" style="padding-top: 25px;">
+        <div class="col-lg-6 col-md-6 col-sm-6" ">
+            <form action="{% url 'aes_encript' %}" method="GET" id="aes_card">
+                {% csrf_token %}
+                <h1>AES Method</h1>
+                <div class="form-group">
+                    <label for="">{{form.send_to.label}}</label>
+                    {{form.send_to}}
+                </div>
+                <div class="form-group">
+                    <label for="">{{form.message.label}}</label>
+                    {{form.message}}
+                </div>
+                <div class="form-group">
+                    <label for="">{{form.key.label}}</label>
+                    {{form.key}}
+                </div>
+                <div>
+                    {{ntru_form.file}}
+                </div>
+                <div class="form-group" id="encript_button" style="margin-right: 50%;">
+                    <button type="submit" class="btn btn-primary">Encript</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+            <form action="{% url 'ntru_encript' %}" method="POST" id="aes_card">
+                {% csrf_token %}
+                <h1>NTRU Method</h1>
+                <div class="form-group">
+                    <label for="">{{ntru_form.key.label}}</label>
+                    {{ntru_form.key}}
+                </div>
+                <div class="form-group">
+                    <label for="">{{ntru_form.pub_key.label}}</label>
+                    {{ntru_form.pub_key}}
+                </div>
+                <div class="form-group">
+                    <label for="">{{ntru_form.priv_key.label}}</label>
+                    {{ntru_form.priv_key}}
+                </div>
+                <div class="form-group" id="encript_button" style="margin-right: 50%;">
+                    <button type="submit" class="btn btn-info" style="margin-top: 22px;">Generate Encript Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div>
+        <p>{{aes_form.key.value}}</p>
+        
+    </div>
+</div>
+{% endblock content %}
