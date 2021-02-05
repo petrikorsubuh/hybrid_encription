@@ -28,7 +28,7 @@ urlpatterns = [
     path('list_inbox',views.ListInbox.as_view(),name='list_inbox'),
     path('send_message', views.MessageView.as_view(), name='send_message'),
     path('aes_encript', views.AES_View.as_view(), name='aes_encript'),
-    path('ntru_encript', views.Ntru_EncriptView.as_view(), name='ntru_encript'),
+    path('ntru_encript/', views.Ntru_EncriptView.as_view(), name='ntru_encript'),
     path('ntru_decript', views.Decript_NTRU_View.as_view(), name='ntru_decript'),
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -3,11 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="5128514a-7d06-41d2-9eed-6581c1df8bfe" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/apps/hybrid_libs/ntru_ok/ntru_lib/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/hybrid_libs/ntru_ok/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/apps/hybrid_libs/ntru_ok/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/hybrid_encription/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/hybrid_encription/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/hybrid_encription/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/hybrid_encription/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/hybrid_libs/ntru_ok" beforeDir="false" afterPath="$PROJECT_DIR$/apps/hybrid_libs/ntru_ok" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/hybrid_libs/ntru_ok/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/hybrid_libs/ntru_ok/ntru.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/hybrid_libs/ntru_ok/ntru.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/hybrid_libs/ntru_ok/ntru/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/hybrid_libs/ntru_ok/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/hybrid_libs/ntru_ok/ntru/mathutils.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/hybrid_libs/ntru_ok/ntru_lib/mathutils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/hybrid_libs/ntru_ok/ntru/ntrucipher.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/hybrid_libs/ntru_ok/ntru_lib/ntrucipher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/detail_message.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/detail_message.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +30,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/apps/hybrid_libs/ntru_ok" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -52,6 +59,7 @@
       <recent name="$PROJECT_DIR$/static/vendors/bootstrap/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps/hybrid_libs/ntru_ok" />
       <recent name="$PROJECT_DIR$/apps" />
       <recent name="$PROJECT_DIR$/templates/base" />
       <recent name="$PROJECT_DIR$/static/vendors/bootstrap" />
